@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My CV - Backend & Frontend Developer</title>
+  <style>
+    /* Reset and base styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f7f8;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      color: #007acc;
+      margin-bottom: 5px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+    section {
+      margin-bottom: 25px;
+    }
+    h2 {
+      border-bottom: 2px solid #007acc;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      color: #007acc;
+      font-size: 1.8rem;
+    }
+    ul {
+      list-style-type: none;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .education-item, .experience-item, .project-item {
+      margin-bottom: 15px;
+    }
+    .education-item h3, .experience-item h3, .project-item h3 {
+      font-size: 1.2rem;
+      color: #222;
+      margin-bottom: 3px;
+    }
+    .education-item span, .experience-item span, .project-item span {
+      font-size: 0.9rem;
+      color: #666;
+    }
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .skill {
+      background: #007acc;
+      color: white;
+      padding: 7px 15px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+      .container {
+        padding: 20px;
+      }
+      header h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Nama Anda</h1>
+      <p>Backend & Frontend Developer</p>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Experienced developer skilled in building scalable backend systems and engaging frontend interfaces. Passionate about clean code, performance, and user experience.</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="education-item">
+        <h3>Universitas Contoh - Bachelor of Computer Science</h3>
+        <span>2015 - 2019</span>
+        <p>Focused on software engineering, algorithms, and web development.</p>
+      </div>
+      <div class="education-item">
+        <h3>SMA Contoh</h3>
+        <span>2012 - 2015</span>
+        <p>Science major with strong foundation in mathematics and programming.</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <span class="skill">Node.js</span>
+        <span class="skill">Express</span>
+        <span class="skill">Python</span>
+        <span class="skill">Django</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">React</span>
+        <span class="skill">HTML5</span>
+        <span class="skill">CSS3</span>
+        <span class="skill">REST APIs</span>
+        <span class="skill">SQL & NoSQL</span>
+        <span class="skill">Git</span>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-item">
+        <h3>Project Backend API</h3>
+        <p>Developed a RESTful API for e-commerce platform using Node.js and Express, implementing authentication and data validation.</p>
+      </div>
+      <div class="project-item">
+        <h3>Frontend Dashboard</h3>
+        <p>Created a responsive React dashboard for monitoring system metrics with real-time updates and charts.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: nama.email@example.com</p>
+      <p>LinkedIn: linkedin.com/in/username</p>
+      <p>GitHub: github.com/username</p>
+    </section>
+  </div>
+</body>
+</html>
